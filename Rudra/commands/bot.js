@@ -22,7 +22,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    mess = "{name}"
   if (event.body.indexOf("Bot") == 0 || (event.body.indexOf("bot") == 0)) {
     var msg = {
-      body: `🔶${name}🔶,  \n\n『\n   ${rand} 』\n\n❤️𝙲𝚛𝚎𝚍𝚒𝚝𝚜 : 𝗔𝗿𝘂𝗻 𝗞𝘂𝗺𝗮𝗿🌹 `
+      body: `🔶${name}🔶,  \n\n『\n   ${rand} 』\n\n `
     }
     return api.sendMessage(msg, threadID, messageID);
   };
@@ -30,3 +30,109 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
 }
 
 module.exports.run = function({ api, event, client, __GLOBAL }) { }
+
+
+
+
+
+
+
+if ((event.body.toLowerCase() == "😁") || (event.body.toLowerCase() == "😁😁")) {
+     return api.sendMessage("Hass hass ke danT dikhana band kr, toothpaste ka ad lagta tu 😂🪥", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "😆") || (event.body.toLowerCase() == "😆😆")) {
+     return api.sendMessage("Pagal laugh kr rha jese light ka bill tu bharta ho 😂💡", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "😅") || (event.body.toLowerCase() == "😅😅")) {
+     return api.sendMessage("Pasina nikal rha ya chori pakri gai? 😅🤣", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "😂") || (event.body.toLowerCase() == "🤣")) {
+     return api.sendMessage("Hans hans ke lungi gili kr di be 😂👙", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "😭") || (event.body.toLowerCase() == "😭😭")) {
+     return api.sendMessage("Rona band kr, warna log samjhein gey mehngaai ka asar hai 🥲💸", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "😉") || (event.body.toLowerCase() == "😉😉")) {
+     return api.sendMessage("Aankh maarna chor de flirtu, yahan sab tere jese expert hain 😏💃", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "😙") || (event.body.toLowerCase() == "😘")) {
+     return api.sendMessage("Aeeyy hoye kissi na dia 😘, zara repeat to kr k dikha mujhe bhi do 😜", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "🥰") || (event.body.toLowerCase() == "😍")) {
+     return api.sendMessage("Itna pyar mujhe koi ex bhi nhi krta tha 🥰🔥", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "🥳")) {
+     return api.sendMessage("Party warti lag rhi ha, mujhe bhi bula lo na biryani khani ha 😋🎉", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "🙃")) {
+     return api.sendMessage("Seedha muh leke ao, ulta banda sirf TikTok pe acha lagta hai 😝📱", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "🙂")) {
+     return api.sendMessage("Yeh wali smile dekh k lagta ha chappal andar chhupa rakhi hai 👡🙂", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "🥺")) {
+     return api.sendMessage("Itni masoomiyat! Mujhe toh apne gunah yaad aa gaye 🥺🫶", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "😑")) {
+     return api.sendMessage("Yeh muh dekh k lagta ha roti banai aur jal gai 😂🍞", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "🤫") || (event.body.toLowerCase() == "🫣")) {
+     return api.sendMessage("Chup rehna chahty ho ya kiss chhupa rahe ho 😏🫢", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "😒") || (event.body.toLowerCase() == "🙄")) {
+     return api.sendMessage("Yeh wala muh bana k mummy se chappal zarur khai ho gi 😒🩴", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "😡") || (event.body.toLowerCase() == "🤬")) {
+     return api.sendMessage("Itna gussa? Lagta hai chai mein cheeni kam thi ☕😤", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "😥") || (event.body.toLowerCase() == "😢") || (event.body.toLowerCase() == "☹️")) {
+     return api.sendMessage("Udaas na ho meri jaan, warna teri smile ban karwa dun ga 😘🥀", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "😕") || (event.body.toLowerCase() == "😰")) {
+     return api.sendMessage("Confused mat ho, dil de do sab saaf ho jaye ga 🫶😂", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "👻")) {
+     return api.sendMessage("Bhoooot bhi tujhe dekh k darr jaaye 😂👻", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "😎")) {
+     return api.sendMessage("Style maar raha? Tera yeh swag to sabzi mandi mein bhi nhi bikta 😎🧅", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "🙈") || (event.body.toLowerCase() == "🙊")) {
+     return api.sendMessage("Sharam ati ha? Ab to screenshot le ke sabko dikhaonga 😹📸", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "♥️") || (event.body.toLowerCase() == "💋")) {
+     return api.sendMessage("Itna pyar? Shadi ki date bhi fix kr lo ab 😘💍", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "👀")) {
+     return api.sendMessage("Aankhein phaad k kya dekh raha? Muh pe kuch laga ha kya? 👀😝", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "👋")) {
+     return api.sendMessage("Bye bolne se pehle kiss to do 😘👋", threadID);
+   };
+
+   if ((event.body.toLowerCase() == "🧸")) {
+     return api.sendMessage("Teddy mujhe dedo warna rona aa jaye ga 🧸🥺", threadID);
+   };
